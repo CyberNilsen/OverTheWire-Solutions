@@ -1,12 +1,11 @@
 Goal:
 
-```
 The password for the next level is stored somewhere on the server and has all of the following properties:
 
 - owned by user bandit7
 - owned by group bandit6
 - 33 bytes in size
-```
+
 
 When trying the `find` command, we realize it doesn’t return anything because we don’t know the exact location of the file. But we can still try running it in the current directory:
 

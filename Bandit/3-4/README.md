@@ -1,8 +1,7 @@
 Reading the goal:
 
-```
 The password for the next level is stored in a hidden file in the inhere directory.
-```
+
 
 I know that to find hidden files, I have to use `ls -a` instead of just `ls`, because hidden files (those starting with a dot `.`) are not shown by default.
 

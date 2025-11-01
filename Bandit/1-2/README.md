@@ -1,3 +1,5 @@
+# 🔁 Bandit Level 1 → Level 2
+
 First I read the goal, and saw this:
 
 

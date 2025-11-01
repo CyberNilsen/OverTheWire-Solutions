@@ -1,3 +1,5 @@
+# 🔁 Bandit Level 2 → Level 3
+
 Reading the goal, I find it's kind of the same as the last level. Therefore, we have to run the same command again. But instead of writing the full thing myself, I just typed `cat --` and pressed `Tab` to let the terminal autocomplete the filename. This shows you can either use tab completion or manually escape the spaces in the filename.
 
 

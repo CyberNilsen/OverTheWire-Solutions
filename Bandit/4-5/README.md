@@ -1,8 +1,8 @@
 Goal
 
-```
+
 The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
-```
+
 
 Here I know I have to use the `file` command to find the only human-readable file, but I didn’t remember the exact syntax, so I had to use Google to figure it out.
 

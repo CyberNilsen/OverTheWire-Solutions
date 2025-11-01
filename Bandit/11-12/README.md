@@ -2,9 +2,7 @@
 
 ## 🎯 Goal
 
-```
 The password for the next level is stored in the file data.txt, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions.
-```
 
 This is a classic **ROT13** encoding challenge. ROT13 shifts each letter 13 places in the alphabet, wrapping around at the end. Numbers and symbols remain unchanged.
 

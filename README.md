@@ -7,6 +7,9 @@
 
   ---
 
+  <img width="2560" height="1229" alt="OverTheWire" src="https://github.com/user-attachments/assets/521caaba-6d68-40f7-9eda-33ab21b4b96d" />
+
+
   ## 🕹️ About OverTheWire
 
   [OverTheWire](https://overthewire.org/wargames/) provides a collection of security wargames designed to teach and improve your knowledge of:

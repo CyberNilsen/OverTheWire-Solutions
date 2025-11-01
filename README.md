@@ -1,4 +1,3 @@
-README.md: |
   # OverTheWire Solutions 🧠🔐
 
   Welcome to my **OverTheWire Solutions** repository!  

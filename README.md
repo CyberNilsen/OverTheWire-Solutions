@@ -94,7 +94,7 @@ These write-ups are for **educational purposes only**. OverTheWire challenges ar
 
 ## 📄 License
 
-This repository is available under the **MIT License**. See `LICENSE` for details.
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
 ---
 

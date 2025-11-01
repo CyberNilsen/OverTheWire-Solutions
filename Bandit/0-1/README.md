@@ -1,8 +1,8 @@
 First I read the task at hand:
 
-```
+
 The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
-```
+
 
 Then I proceeded to log in. I tried `ls`, which showed that the `readme` file was in the same directory I was currently in. Then I just wrote `cat readme` and got the password for the next level.
 

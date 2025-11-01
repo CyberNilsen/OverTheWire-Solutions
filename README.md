@@ -26,13 +26,14 @@
   ---
 
   ## 📁 Repository Structure
-OverTheWire-Solutions/
-├── Bandit/
-│ ├── /0-to-1 #README.md containing the solution, other direcories can contain pictures.
-│ ├── /1-2
-│ └── ...
-└── (more wargames coming soon)
-
+  ```
+  OverTheWire-Solutions/
+  ├── Bandit/
+  │ ├── /0-to-1 #README.md containing the solution, other direcories can contain pictures.
+  │ ├── /1-2
+  │ └── ...
+  └── (more wargames coming soon)
+  ```
 
 Each solution file typically contains:
 - 🧩 **Challenge Description**

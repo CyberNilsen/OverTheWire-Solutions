@@ -42,13 +42,3 @@ You can decode this using:
 ```
 The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 ```
-
----
-
-## 🧭 Next Step
-
-Log in to the next level using:
-
-```bash
-ssh bandit12@bandit.labs.overthewire.org -p 2220
-```

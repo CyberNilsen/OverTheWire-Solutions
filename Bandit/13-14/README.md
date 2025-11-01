@@ -32,9 +32,3 @@ ssh -i bandit14.private bandit14@bandit.labs.overthewire.org -p 2220
 ```
 
 ✅ This successfully logs you into the next level.
-
----
-
-## 🧭 Next Step
-
-Once inside Bandit14, you’ll need to submit the password from Level 13 to a port on localhost. See the next level’s instructions for details.

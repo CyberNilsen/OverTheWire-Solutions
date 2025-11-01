@@ -102,13 +102,3 @@ cat data.txt
 ```
 FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 ```
-
----
-
-## 🧭 Next Step
-
-Log in to the next level using:
-
-```bash
-ssh bandit13@bandit.labs.overthewire.org -p 2220
-```

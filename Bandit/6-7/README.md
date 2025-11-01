@@ -8,35 +8,39 @@ The password for the next level is stored somewhere on the server and has all of
 - 33 bytes in size
 ```
 
-when having tried the find command we realize that wont work since there isnt a specific file or we dont know that but we can still try running the find command regardless
+When trying the `find` command, we realize it doesn’t return anything because we don’t know the exact location of the file. But we can still try running it in the current directory:
 
 ```
 find . -type f -user bandit7 -group bandit6 -size 33c
 ```
 
-this gives us nothing, 
+This gives us nothing.
 
-unsure whaat to do further i tried this command instead:
+Unsure what to do next, I tried this command instead:
 
 ```
 find / -type f -group bandit6 -user bandit7 -size 33c
 ```
 
-basically search for all files in the whole system, doing this gives us something but it gives us a whole lotta clutter, many files with many errors,
+This searches the entire system. It gives us results, but also a lot of clutter — many permission errors and unreadable directories.
 
-errors.png
-
-therefore i need to find out how to supress/ignore the errors and still search and find out i have to add this to the command i ran above:
+`errors.png`  
+To suppress or ignore those errors, I added this to the end of the command:
 
 ```
 2>/dev/null
 ```
 
-this results in us finding out where the password is saved.
+This hides the error output and lets us focus on the actual results:
 
-password.png
+```
+find / -type f -group bandit6 -user bandit7 -size 33c 2>/dev/null
+```
 
-then we can proceed to cat it.
+`password.png`  
+This reveals the correct file path. Then we can `cat` the file to get the password:
 
+```
 bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+```

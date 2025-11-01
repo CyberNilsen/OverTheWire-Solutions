@@ -1,18 +1,28 @@
-First i read the goal, here i saw this
+First I read the goal, and saw this:
 
 ```
 The password for the next level is stored in a file called - located in the home directory
 ```
 
-this tells me that the file is called - therefore we have to run ls then cat the file name, when trying to cat - it does not return anything since this isnt how we are supposed to cat those type of file names, we have to run cat ./- which basically is open the file in the directory i am in and idk what else, please help me explain this copilot!!
+This tells me that the file is literally named `-`. So I ran `ls` to confirm:
 
+```
 bandit1@bandit:~$ ls
 -
+```
+
+Then I tried to read it using `cat -`, but that didn’t work:
+
+```
 bandit1@bandit:~$ cat -
 ^C
-bandit1@bandit:~$ cat
--             .bash_logout  .bashrc       .profile
+```
+
+This is because `cat -` is interpreted as reading from **standard input**, not a file named `-`. To fix this, I used `cat ./-`, which tells the shell to read the file named `-` in the current directory:
+
+```
 bandit1@bandit:~$ cat ./-
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+```
 
-After running the command above i got the password :D
+✅ After running the command above, I got the password for the next level! 😄

@@ -4,25 +4,27 @@ Goal
 The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 ```
 
-here i know i have to use the command find/file to find the only human-readable file, but i dont remember the command so i had to use google to find out, 
+Here I know I have to use the `file` command to find the only human-readable file, but I didn’t remember the exact syntax, so I had to use Google to figure it out.
 
-after researching a bit i found out the command was 
+After researching a bit, I found out the command was:
 
 ```
 file ./*
 ```
 
-to see all the files and what type of data/files they are.
+This shows all the files and what type of data they contain.
 
-humanreadable.png
+`humanreadable.png`  
+Now that we know which file is human-readable, we can `cat` that file:
 
-now that we know the correct one we cat that file
-
+```
 bandit4@bandit:~/inhere$ cat ./-file07
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 bandit4@bandit:~/inhere$
+```
 
-trying all the files manually is possible of course but tiring and unnessary, example of file that is not human readable:
+Trying all the files manually is possible of course, but tiring and unnecessary.  
+Here’s an example of a file that is **not** human-readable:
 
 ```
 bandit4@bandit:~/inhere$ cat ./-file00

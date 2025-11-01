@@ -1,8 +1,8 @@
 First I read the goal, and saw this:
 
-```
+
 The password for the next level is stored in a file called - located in the home directory
-```
+
 
 This tells me that the file is literally named `-`. So I ran `ls` to confirm:
 

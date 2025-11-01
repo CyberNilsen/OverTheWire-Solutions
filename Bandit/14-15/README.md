@@ -61,12 +61,4 @@ The password for the next level can be retrieved by submitting the password of t
 
 ✅ That’s the password for **Bandit Level 15**.
 
----
 
-## 🧭 Next Step
-
-Log in to the next level using:
-
-```bash
-ssh bandit15@bandit.labs.overthewire.org -p 2220
-```

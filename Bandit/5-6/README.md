@@ -1,3 +1,5 @@
+# 🔁 Bandit Level 5 → Level 6
+
 Goal:
 
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:

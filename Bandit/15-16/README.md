@@ -44,13 +44,3 @@ Helpful note: Getting “DONE”, “RENEGOTIATING” or “KEYUPDATE”? Read t
    ```
 
 ✅ That’s the password for **Bandit Level 16**.
-
----
-
-## 🧭 Next Step
-
-Log in to the next level using:
-
-```bash
-ssh bandit16@bandit.labs.overthewire.org -p 2220
-```

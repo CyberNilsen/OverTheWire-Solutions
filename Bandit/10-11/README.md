@@ -1,8 +1,7 @@
 Goal:
 
-```
 The password for the next level is stored in the file data.txt, which contains base64 encoded data
-```
+
 
 Here we can run `cat data.txt` and use `grep "=="` to filter out the base64-encoded line,  
 since base64 strings often end with `==` padding.

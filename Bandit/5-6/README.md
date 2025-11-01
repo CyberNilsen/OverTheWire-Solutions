@@ -1,12 +1,11 @@
 Goal:
 
-```
 The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
 
 - human-readable
 - 1033 bytes in size
 - not executable
-```
+
 
 From the last level, we know we have to do something similar, but this time using multiple arguments with the `find` command.
 

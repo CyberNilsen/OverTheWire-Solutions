@@ -1,8 +1,7 @@
 Goal:
 
-```
 The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
-```
+
 
 If we run the command `strings`, we can extract all human-readable strings from the binary file. This reveals the password among other readable content. The command to use is:
 
